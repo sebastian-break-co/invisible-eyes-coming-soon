@@ -39,3 +39,31 @@
   font-weight: 500;
   font-style: italic;
 }
+
+@font-face {
+  font-family: "Van Helsing";
+  src: url("../assets/fonts/VanHelsing.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Evil Dead";
+  src: url("../assets/fonts/EvilDead.TTF") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Angel Wish";
+  src: url("../assets/fonts/AngelWish.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "BLKCHCRY";
+  src: url("../assets/fonts/BLKCHCRY.TTF") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}

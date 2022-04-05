@@ -1,7 +1,9 @@
 import React from 'react';
-import { ReactComponent as IconFacebook } from './assets/icons/facebook.svg';
 import { ReactComponent as IconTwitter } from './assets/icons/twitter.svg';
 import { ReactComponent as IconGithub } from './assets/icons/github.svg';
+import { ReactComponent as IconDiscord } from './assets/icons/discord.svg';
+import { ReactComponent as IconGmail } from './assets/icons/gmail.svg';
+import { ReactComponent as IconMirror } from './assets/icons/mirror.svg';
 import "./App.css";
 
 class App extends React.Component {
@@ -13,14 +15,20 @@ class App extends React.Component {
             <a href=".">Invisible EYEs</a>
           </div>
           <div className="social">
-            <a href="https://facebook.com" title="Facebook" target="_blank" rel="noopener noreferrer">
-              <IconFacebook className="icon" />
-            </a>
-            <a href="https://twitter.com" title="Twitter" target="_blank" rel="noopener noreferrer">
+            <a href="https://twitter.com/invsbleEyes" title="Twitter" target="_blank" rel="noopener noreferrer">
               <IconTwitter className="icon" />
+            </a>
+            <a href="https://discord.gg/madUctPypY" title="Discord" target="_blank" rel="noopener noreferrer">
+              <IconDiscord className="icon" />
             </a>
             <a href="https://github.com/arkn98/coming-soon" title="GitHub" target="_blank" rel="noopener noreferrer">
               <IconGithub className="icon" />
+            </a>
+            <a href="mailto:support@invisibleeyes.art" title="Gmail" target="_blank" rel="noopener noreferrer">
+              <IconGmail className="icon" />
+            </a>
+            <a href="https://mirror.xyz/invisibleeyes.eth" title="Mirror" target="_blank" rel="noopener noreferrer">
+              <IconMirror className="icon" />
             </a>
           </div>
         </div>
